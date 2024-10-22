@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 @media screen and (max-width: 768px) {
   .fh5co-nav #fh5co-logo {
-    font-size: 22px;
+    font-size: 16px;
   }
 }
 .fh5co-nav a {
@@ -501,18 +501,22 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   display: inline;
+  transition: all 0.2s ease-in-out;
 }
 .fh5co-social-icons li a {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   color: #F36363;
   padding-left: 10px;
   padding-right: 10px;
 }
 .fh5co-social-icons li a i {
   font-size: 20px;
+}
+.fh5co-social-icons li:hover{
+  margin-bottom: 12px;
 }
 
 .fh5co-contact-info ul {
@@ -1394,4 +1398,54 @@ h1, h2, h3, h4, h5, h6, figure {
   border-bottom-left-radius: 0px !important;
 }
 
-/*# sourceMappingURL=style.css.map */
+.btn-group-Kiru-Dev{
+  /* border: 2px solid red; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn-group-Kiru-Dev button{
+  width: 50%;
+   align-items: center;
+  background-color: #ffa01ce1;
+  border: 2px solid #eea236;
+  backdrop-filter: blur(12);
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: all 0.9s ease-in-out;
+  
+}
+.btn-group-Kiru-Dev button a{
+  color: white;
+}
+.btn-group-Kiru-Dev:nth-child(1){
+  border-right: 1px solid #f3f3f3;
+}
+
+
+
+
+.btn-group-Kiru-Dev:hover {
+  background-color: #3385ff;
+  border-color: #3385ff;
+}
+
