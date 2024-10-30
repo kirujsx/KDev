@@ -1,0 +1,211 @@
+.button-Kiru-Dev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 15px;
+  background-color: #fa8702;
+  outline: 3px #fa8702 solid;
+  outline-offset: -3px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+
+  transition: 400ms;
+  vertical-align: middle;
+}
+
+.button-Kiru-Dev .text-kiru-dev {
+  color: white;
+  font-weight: 300;
+  font-size: 1em;
+  transition: 400ms;
+  margin-top: 15px;
+}
+
+.button-Kiru-Dev .svg-icon path {
+  transition: 400ms;
+}
+
+.button-Kiru-Dev:hover {
+  background-color: transparent;
+}
+
+.button-Kiru-Dev:hover .text-kiru-dev {
+  color: #fa8702;
+}
+
+.button-Kiru-Dev:hover .svg-icon path {
+  fill: #fa8702;
+}
+.d-flex-kiru-dev {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+
+  justify-content: space-evenly;
+}
+.small-kiru-dev {
+  width: 50px;
+}
+.row1-kiru-dev div {
+  margin-top: 19px;
+}
+.small-kiru-dev-70 {
+  width: 77px;
+}
+.row1-kiru-dev {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.row2-kiru-dev {
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 23px;
+}
+.row3-kiru-dev {
+  width: 100%;
+  margin-top: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.row1-kiru-dev div p {
+  padding: 3px;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 6px;
+  background-color: #101010e4;
+  color: white;
+}
+
+.row1-kiru-dev div:nth-child(1) p {
+  padding: 3px;
+  border-radius: 8px;
+
+  margin-top: 6px;
+  background-color: #fc490b;
+  color: white;
+}
+.row1-kiru-dev div:nth-child(2) p {
+  padding: 3px;
+  border-radius: 8px;
+
+  margin-top: 6px;
+  background-color: #2196f3;
+  color: white;
+}
+.row1-kiru-dev div:nth-child(3) p {
+  background-color: #5e3b7f;
+}
+.row1-kiru-dev div:nth-child(4) p {
+  background-color: #ffdf00;
+}
+.row1-kiru-dev div:nth-child(5) p {
+  background-color: #31a5d9;
+}
+.row1-kiru-dev div:nth-child(6) p {
+  background-color: #393939;
+}
+.row2-kiru-dev div p {
+  padding: 3px;
+  border-radius: 8px;
+  margin-top: 6px;
+  background-color: #101010e4;
+  color: white;
+}
+.row2-kiru-dev div:nth-child(1) p {
+  background-color: #00ccde;
+}
+.row2-kiru-dev div:nth-child(2) p {
+  background-color: #27a2cc;
+}
+.row2-kiru-dev div:nth-child(3) p {
+  background-color: #f15b51;
+}
+.row2-kiru-dev div:nth-child(4) p {
+  background-color: #282828;
+}
+.row2-kiru-dev div:nth-child(5) p {
+  background-color: #23bec7;
+}
+.row3-kiru-dev div:nth-child(1) p {
+  background-color: #0868ab;
+}
+
+.row3-kiru-dev div:nth-child(3) p {
+  background-color: #429346;
+}
+.row3-kiru-dev div:nth-child(4) p {
+  background-color: #636d70;
+}
+.row3-kiru-dev div:nth-child(5) p {
+  background-color: #3e8ccc;
+}
+.row3-kiru-dev div:nth-child(6) p {
+  background: linear-gradient(320deg, #7770e2, #e07063, #557bde);
+}
+.row3-kiru-dev div p {
+  padding: 3px;
+  border-radius: 8px;
+  margin-top: 7px;
+  background-color: #101010e4;
+  color: white;
+}
+@media (max-width: 668px) {
+  .row1-kiru-dev {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    width: 100%;
+  }
+  .row1-kiru-dev div img {
+    margin: 0 auto !important;
+  }
+
+  .row1-kiru-dev div {
+    width: 100%;
+    padding-right: 19px;
+    margin-top: 12px;
+    padding-left: 19px;
+  }
+  .row2-kiru-dev {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    width: 100%;
+  }
+  .row2-kiru-dev div img {
+    margin: 0 auto !important;
+  }
+
+  .row2-kiru-dev div {
+    width: 100%;
+    padding-right: 19px;
+    margin-top: 12px;
+    padding-left: 19px;
+  }
+  .row3-kiru-dev {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    width: 100%;
+  }
+  .row3-kiru-dev div img {
+    margin: 0 auto !important;
+  }
+
+  .row3-kiru-dev div {
+    width: 100%;
+    padding-right: 19px;
+    margin-top: 12px;
+    padding-left: 19px;
+    margin: 0 auto !important;
+  }
+}
